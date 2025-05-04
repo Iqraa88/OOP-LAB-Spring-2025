@@ -53,6 +53,7 @@ int main()
 {
 
     FileHandling f1;
+    f1.createFile("large_log.txt");
     f1.readPosition("large_log.txt");
  return 0;
 }
